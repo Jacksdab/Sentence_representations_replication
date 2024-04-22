@@ -36,6 +36,8 @@ This will output the model's accuracy on the test set.
 - `environment.yml`: List of packages required to run the models.
 - `analysis.ipynb`: List of packages required to run the models.
 
+## Link for Tensorboard logs and checkpoints
+https://drive.google.com/drive/folders/1tCoCLzbVD8lxMtaAVzl2V0QG_Rnt-BA9
 
 ## Additional Notes
 
