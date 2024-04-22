@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --partition=rtx2080ti
+#SBATCH --gpus=1
+#SBATCH --job-name=baseline
+#SBATCH --ntasks=1
+#SBATCH --qos=rtx_qos
+#SBATCH --cpus-per-task=18
+#SBATCH --time=04:00:00
+#SBATCH --output=slurm_output_baseline%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+cd $HOME/code/atcs
+# Activate your environment
+source activate atcs
+srun python -u train.py --encoder_name Baseline
