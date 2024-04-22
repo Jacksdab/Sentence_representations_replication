@@ -32,7 +32,7 @@ This will output the model's accuracy on the test set.
   - `AWE.py`: All models.
   - `NLINet.py`: NLInet. 
 - `data_preprocessing.py`: Script for loading and preprocessing the dataset.
-- `trainl.py`: Entry point for training models.
+- `train.py`: Entry point for training models.
 - `environment.yml`: List of packages required to run the models.
 - `analysis.ipynb`: List of packages required to run the models.
 
